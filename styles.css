@@ -1,0 +1,40 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #efe9f4;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: large;
+    padding-left: 2em;
+    align-content: middle;
+}
+.card {
+    background-color: #77b28c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    /* height: 8em; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(231, 15, 15, 0.2);
+  }
+  
+  .container {
+    padding-left: 16px;
+    /* padding-bottom: 2vh; */
+    place-items: center;
+  }
+  .container p {
+      padding-top: 1em;
+  }
+  #sunrise-time, #fajr-time, #maghrib-time, #sunset-time, #isha-time, #midnight-time {
+    display: inline-block;
+    /* margin: 0 auto; */
+  }
+  #sunrise-time, #sunset-time, #midnight-time {
+      margin-left: 1em;
+  }

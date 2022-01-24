@@ -1,0 +1,13 @@
+{
+    "name": "Productive Muslim",
+    "version": "0.01",
+    "description": "Prayer times and todo list",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "background": {
+        "page": "scripts.js",
+        "persistent": false
+    },
+    "manifest_version": 2
+}
